@@ -1,9 +1,11 @@
+import LayoutShell from '@/components/LayoutShell/LayoutShell';
 import css from './page.module.css';
+import Hero from '@/components/Hero/Hero';
 
 export default function Home() {
   return (
-    <main>
-      <h1>Home Page</h1>
-    </main>
+    <LayoutShell>
+      <Hero />
+    </LayoutShell>
   );
 }
