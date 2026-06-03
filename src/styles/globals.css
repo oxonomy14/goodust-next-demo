@@ -27,10 +27,6 @@
   padding: 0;
 }
 
-body {
-  font-family: var(--font-family);
-}
-
 h1,
 h2,
 h3,
@@ -62,7 +58,7 @@ button {
   background-color: transparent;
 }
 
-img {
+img:not([data-nimg]) {
   display: block;
   max-width: 100%;
   height: auto;

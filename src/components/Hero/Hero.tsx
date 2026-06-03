@@ -1,13 +1,38 @@
 import css from './Hero.module.css';
 import Container from '../Container/Container';
+import Image from 'next/image';
+import Link from 'next/link';
+import CtaButton from '../CtaButton/CtaButton';
 
 export default function Hero() {
   return (
-    <div className={css.hero}>
+    <section className={css.hero}>
       <Container>
-        <h1 className={css.title}>Welcome to the Hero Section</h1>
-        <p className={css.subtitle}>This is a simple hero section component.</p>
+        <div className={css.heroContent}>
+          <div className={css.heroText}>
+            <p className={css.subtitle}># From Dusty to Dazzling</p>
+            <h1 className={css.title}>
+              Bringing <span className={css.highlight}>Sparkle</span> Back to
+              Your Home
+            </h1>
+            <p className={css.description}>
+              Experience professional cleaning services designed to keep your
+              home fresh, spotless, and welcoming. Reliable cleaners, flexible
+              scheduling, and results you will love.
+            </p>
+            <CtaButton text="Book an Appointment" path="#appointment" />
+          </div>
+
+          <div className={css.heroImage}>
+            <Image
+              src="/image/hero/teamCleaning.png"
+              alt="Hero Image"
+              width={669}
+              height={720}
+            />
+          </div>
+        </div>
       </Container>
-    </div>
+    </section>
   );
 }

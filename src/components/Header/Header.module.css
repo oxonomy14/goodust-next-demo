@@ -1,6 +1,6 @@
 .header {
   background-color: var(--white-netral);
-  height: 155px;
+  height: 115px;
 }
 
 .headerTop {
@@ -18,5 +18,5 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
