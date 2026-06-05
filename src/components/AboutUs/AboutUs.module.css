@@ -96,7 +96,7 @@
 
 .aboutUsFeatures {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: max-content max-content;
   gap: 7.5px 25px;
   margin-bottom: 30px;
 }
@@ -123,6 +123,12 @@
 }
 
 .trustedBy {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-divider);
+  margin-bottom: 20px;
+}
+
+.trustedByText {
   font-family: var(--second-family);
   font-weight: 600;
   font-size: 20px;
@@ -130,6 +136,4 @@
   letter-spacing: -0.03em;
   text-align: center;
   color: var(--primary);
-  padding-bottom: 20px;
-  border-bottom: 1px solid var(--border-divider);
 }

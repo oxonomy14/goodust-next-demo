@@ -2,6 +2,7 @@ import css from './AboutUs.module.css';
 import Container from '../Container/Container';
 import Image from 'next/image';
 import CtaButton from '../CtaButton/CtaButton';
+import BrandCompanies from '../BrandCompanies/BrandCompanies';
 
 export default function AboutUs() {
   return (
@@ -10,7 +11,7 @@ export default function AboutUs() {
         <div className={css.aboutUsContent}>
           <div className={css.imageWrapperLeft}>
             <Image
-              src="/image/aboutus/AboutUsLeft.webp"
+              src="/images/aboutus/AboutUsLeft.webp"
               width={261}
               height={420}
               alt="About Us"
@@ -22,7 +23,7 @@ export default function AboutUs() {
           </div>
           <div className={css.imageWrapperRight}>
             <Image
-              src="/image/aboutus/AboutUsRight.webp"
+              src="/images/aboutus/AboutUsRight.webp"
               width={319}
               height={480}
               alt="About Us"
@@ -55,8 +56,11 @@ export default function AboutUs() {
           </div>
         </div>
         <div className={css.trustedBy}>
-          Trusted By Thousands Of Organizations
+          <p className={css.trustedByText}>
+            Trusted By Thousands Of Organizations
+          </p>
         </div>
+        <BrandCompanies />
       </Container>
     </section>
   );

@@ -1,7 +1,7 @@
 .hero {
   background:
     linear-gradient(rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.6)),
-    url('/image/bg/hero-bg.jpg') center/cover no-repeat;
+    url('/images/hero/hero-bg.jpg') center/cover no-repeat;
   height: 790px;
 }
 

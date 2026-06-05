@@ -25,7 +25,7 @@ export default function Hero() {
 
           <div className={css.heroImage}>
             <Image
-              src="/image/hero/teamCleaning.png"
+              src="/images/hero/teamCleaning.png"
               alt="Hero Image"
               width={669}
               height={720}
