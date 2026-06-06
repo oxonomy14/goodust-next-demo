@@ -1,6 +1,7 @@
 import css from './ContactForm.module.css';
 import Container from '../Container/Container';
 import ContactInfo from '../ContactInfo/ContactInfo';
+import Form from '../Form/Form';
 
 export default function ContactForm() {
   return (
@@ -8,7 +9,9 @@ export default function ContactForm() {
       <div className={css.contactFormBg}>
         <Container>
           <div className={css.contactFormWrapper}>
-            <div className={css.contactForm}></div>
+            <div className={css.contactForm}>
+              <Form />
+            </div>
             <div className={css.contactFormContent}>
               <p className={css.contactFormSubtitle}>[ Book an Appointment ]</p>
               <h2 className={css.contactFormTitle}>

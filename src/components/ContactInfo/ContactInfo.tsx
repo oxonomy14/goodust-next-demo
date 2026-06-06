@@ -11,7 +11,7 @@ export default function ContactInfo() {
             </svg>
           </div>
           <div>
-            <p className={css.contactTitle}>Customer Support</p>
+            <p className={css.contactTitle}>Feel free to call us</p>
             <p className={css.contactNumber}>+1 (234) 567-8910</p>
           </div>
         </li>
@@ -22,7 +22,7 @@ export default function ContactInfo() {
             </svg>
           </div>
           <div>
-            <p className={css.contactTitle}>Email Support</p>
+            <p className={css.contactTitle}>Email us for any questions</p>
             <p className={css.contactEmail}>hello@goodust.demo</p>
           </div>
         </li>
