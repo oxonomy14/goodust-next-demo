@@ -20,7 +20,7 @@
 .contactForm {
   border-bottom: 3px solid var(--secondary);
   border-radius: 10px;
-  padding: 48px;
+  padding: 57px 48px;
   min-width: 600px;
   min-height: 572px;
   box-shadow: 0 10px 40px -5px rgba(0, 0, 0, 0.15);

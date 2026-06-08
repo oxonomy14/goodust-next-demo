@@ -5,7 +5,7 @@ import Form from '../Form/Form';
 
 export default function ContactForm() {
   return (
-    <section className={css.contactFormSection}>
+    <section className={css.contactFormSection} id="book-appointment">
       <div className={css.contactFormBg}>
         <Container>
           <div className={css.contactFormWrapper}>

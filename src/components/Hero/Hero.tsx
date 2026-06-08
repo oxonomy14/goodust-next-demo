@@ -20,7 +20,7 @@ export default function Hero() {
               home fresh, spotless, and welcoming. Reliable cleaners, flexible
               scheduling, and results you will love.
             </p>
-            <CtaButton text="Book an Appointment" path="#appointment" />
+            <CtaButton text="Book an Appointment" path="#book-appointment" />
           </div>
 
           <div className={css.heroImage}>
