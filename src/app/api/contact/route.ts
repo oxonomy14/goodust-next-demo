@@ -7,21 +7,42 @@ async function sendToN8N(data: ContactFormData) {
     throw new Error('N8N_WEBHOOK is not defined');
   }
 
-  await fetch(webhookUrl, {
+  const response = await fetch(webhookUrl, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(data),
   });
+
+  if (!response.ok) {
+    throw new Error('Failed to send data to n8n');
+  }
+
+  return response.json();
 }
 
 export async function POST(req: Request) {
-  const data = await req.json();
+  try {
+    const data = await req.json();
 
-  await sendToN8N(data);
+    const result = await sendToN8N(data);
 
-  return Response.json({
-    success: true,
-  });
+    return Response.json({
+      success: true,
+      orderId: result.orderId,
+    });
+  } catch (error) {
+    console.error(error);
+
+    return Response.json(
+      {
+        success: false,
+        message: 'Something went wrong',
+      },
+      {
+        status: 500,
+      },
+    );
+  }
 }

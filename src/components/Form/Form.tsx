@@ -12,6 +12,7 @@ const TIME_SLOTS = ['08:00', '12:00', '16:00', '20:00'];
 export default function Form() {
   const [isLoading, setIsLoading] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [orderId, setOrderId] = useState('');
 
   const [availableSlots, setAvailableSlots] = useState(TIME_SLOTS);
 
@@ -41,8 +42,13 @@ export default function Form() {
         throw new Error('Failed to submit form');
       }
 
-      reset();
-      setIsModalOpen(true);
+      const result = await response.json();
+
+      if (result.success) {
+        setOrderId(result.orderId);
+        setIsModalOpen(true);
+        reset();
+      }
     } catch (error) {
       console.error(error);
     } finally {
@@ -203,6 +209,7 @@ export default function Form() {
       <ThankYouModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
+        orderId={orderId}
       />
     </>
   );
