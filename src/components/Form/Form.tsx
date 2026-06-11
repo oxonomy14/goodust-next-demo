@@ -1,11 +1,12 @@
 'use client';
 
 import css from './Form.module.css';
-import { useForm } from 'react-hook-form';
+import { useForm, Controller } from 'react-hook-form';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import ThankYouModal from '@/components/ThankYouModal/ThankYouModal';
 import type { ContactFormData } from '@/types/contact-form.types';
+import PhoneInput from 'react-phone-number-input';
 
 const TIME_SLOTS = ['08:00', '12:00', '16:00', '20:00'];
 
@@ -22,6 +23,7 @@ export default function Form() {
     watch,
     reset,
     formState: { errors },
+    control,
   } = useForm<ContactFormData>();
 
   const selectedDate = watch('date');
@@ -107,18 +109,26 @@ export default function Form() {
           <div className={css.gridItem}>
             <label className={css.labelForm}>
               Phone
-              <input
-                {...register('phone', {
+              <Controller
+                name="phone"
+                control={control}
+                rules={{
                   required: 'Please enter your phone number',
-                })}
-                type="tel"
-                placeholder="e.g. (+1) 234-567-8910"
-                className={css.inputForm}
+                }}
+                render={({ field }) => (
+                  <PhoneInput
+                    {...field}
+                    international
+                    /*    defaultCountry="US" */
+                    placeholder="e.g. (+1) 234-567-8910"
+                    className={css.phoneInput}
+                  />
+                )}
               />
+              {errors.phone && (
+                <p className={css.error}>{errors.phone.message}</p>
+              )}
             </label>
-            {errors.phone && (
-              <p className={css.error}>{errors.phone.message}</p>
-            )}
           </div>
           <div className={css.gridItem}>
             <label className={css.labelForm}>
@@ -170,7 +180,9 @@ export default function Form() {
             <label className={css.labelForm}>
               Date
               <input
-                {...register('date', { required: false })}
+                {...register('date', {
+                  required: 'Please enter Expected Date',
+                })}
                 type="date"
                 placeholder="dd/mm/yy"
                 className={css.inputForm}
@@ -195,7 +207,9 @@ export default function Form() {
             <label className={css.labelForm}>
               Message
               <textarea
-                {...register('message', { required: false })}
+                {...register('message', {
+                  required: 'Please enter Expected Time',
+                })}
                 placeholder="Your message"
                 className={css.textareaForm}
               />
