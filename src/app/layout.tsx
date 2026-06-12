@@ -14,10 +14,39 @@ import '@fontsource/montserrat/800.css';
 import 'modern-normalize/modern-normalize.css';
 import '../styles/globals.css';
 import 'react-phone-number-input/style.css';
+import type { Metadata } from 'next';
 
-export const metadata = {
+export const metadata: Metadata = {
+  metadataBase: new URL('https://goodust.com'),
+
+  title: {
+    default: 'Goodust',
+    template: '%s | Goodust',
+  },
+
+  description: 'Professional cleaning services for homes and businesses.',
+
   icons: {
     icon: [{ url: '/favicon.ico' }, { url: '/favicon.png', type: 'image/png' }],
+  },
+
+  openGraph: {
+    type: 'website',
+    siteName: 'Goodust',
+    title: 'Goodust',
+    description: 'Professional cleaning services for homes and businesses.',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

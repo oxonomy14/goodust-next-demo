@@ -4,6 +4,13 @@ import Hero from '@/components/Hero/Hero';
 import AboutUs from '@/components/AboutUs/AboutUs';
 import ContactForm from '@/components/ContactForm/ContactForm';
 import Testimonials from '@/components/Testimonials/Testimonials';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Cleaning Services',
+  description:
+    'Reliable residential and commercial cleaning services. Book professional cleaners online with Goodust.',
+};
 
 export default function Home() {
   return (
