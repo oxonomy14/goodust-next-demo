@@ -1,5 +1,13 @@
 // src/app/sitemap-pages.xml/route.ts
 
+import { NextResponse } from 'next/server';
+
+export async function GET() {
+  return new NextResponse('Not implemented', {
+    status: 501,
+  });
+}
+
 /* import {
   LOCALES,
   buildStaticPageUrl,
