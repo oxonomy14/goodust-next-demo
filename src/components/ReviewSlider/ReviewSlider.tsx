@@ -22,10 +22,11 @@ export const ReviewSlider = ({ testimonials }: ReviewProps) => {
       loop={testimonials.length > 2}
       autoplay={
         testimonials.length > 2
-          ? {
-              delay: 10000,
-              disableOnInteraction: false,
-            }
+          ? /*  {
+            delay: 10000,
+              disableOnInteraction: false, 
+          
+            } */ false
           : false
       }
       breakpoints={{

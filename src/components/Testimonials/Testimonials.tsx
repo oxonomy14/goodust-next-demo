@@ -41,6 +41,7 @@ export default async function Testimonials() {
               alt="team Goodust"
               width={508}
               height={600}
+              loading="eager"
             />
           </div>
         </div>

@@ -18,7 +18,10 @@ export default function Review(testimonial: TestimonialsData) {
               </svg>
             ))}
           </div>
-          <p className={css.reviewText}>{testimonial.review}</p>
+          <div className={css.reviewWrapper}>
+            <p className={css.reviewText}>{testimonial.review}</p>
+            <div className={css.fullReview}>{testimonial.review}</div>
+          </div>
           <div className={css.reviewInfoWrapper}>
             <div className={css.reviewInfo}>
               <div className={css.reviewAvatarWrapper}>

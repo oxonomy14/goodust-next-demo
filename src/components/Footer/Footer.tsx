@@ -28,24 +28,32 @@ export default function Footer() {
               <p className={css.footerSocialContactTitle}>Connect with us</p>
               <ul className={css.footerSocialList}>
                 <li className={css.footerSocialItem}>
-                  <svg className={css.fbIcon}>
-                    <use href={`/icons/sprite.svg#icon-fb`} />
-                  </svg>
+                  <Link href="/" rel="noopener noreferrer" target="_blank">
+                    <svg className={css.fbIcon}>
+                      <use href={`/icons/sprite.svg#icon-fb`} />
+                    </svg>
+                  </Link>
                 </li>
                 <li className={css.footerSocialItem}>
-                  <svg className={css.xIcon}>
-                    <use href={`/icons/sprite.svg#icon-x`} />
-                  </svg>
+                  <Link href="/" rel="noopener noreferrer" target="_blank">
+                    <svg className={css.xIcon}>
+                      <use href={`/icons/sprite.svg#icon-x`} />
+                    </svg>
+                  </Link>
                 </li>
                 <li className={css.footerSocialItem}>
-                  <svg className={css.instagramIcon}>
-                    <use href={`/icons/sprite.svg#icon-instagram`} />
-                  </svg>
+                  <Link href="/" rel="noopener noreferrer" target="_blank">
+                    <svg className={css.instagramIcon}>
+                      <use href={`/icons/sprite.svg#icon-instagram`} />
+                    </svg>
+                  </Link>
                 </li>
                 <li className={css.footerSocialItem}>
-                  <svg className={css.youtubeIcon}>
-                    <use href={`/icons/sprite.svg#icon-youtube`} />
-                  </svg>
+                  <Link href="/" rel="noopener noreferrer" target="_blank">
+                    <svg className={css.youtubeIcon}>
+                      <use href={`/icons/sprite.svg#icon-youtube`} />
+                    </svg>
+                  </Link>
                 </li>
               </ul>
             </div>

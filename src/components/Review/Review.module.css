@@ -26,6 +26,57 @@
   line-height: 162%;
   color: var(--text);
   margin-bottom: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.reviewWrapper {
+  position: relative;
+}
+
+.fullReview {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: var(--text);
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 300px;
+  padding: 12px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease;
+  z-index: 100;
+}
+
+.reviewWrapper:hover .fullReview {
+  display: block;
+  max-height: 200px;
+  opacity: 1;
+  visibility: visible;
+  overflow-y: auto;
+}
+
+.fullReview::-webkit-scrollbar {
+  width: 6px;
+}
+
+.fullReview::-webkit-scrollbar-thumb {
+  background: #4caf50;
+  border-radius: 999px;
+}
+
+.fullReview::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
 
 .starIcon {
