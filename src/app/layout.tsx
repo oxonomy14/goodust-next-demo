@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     description: 'Professional cleaning services for homes and businesses.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/images/ogImage/ogMain-orig.png',
         width: 1200,
         height: 630,
       },

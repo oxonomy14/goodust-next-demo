@@ -15,7 +15,7 @@ export default function Navigation() {
           <Link href="#service">Services</Link>
         </li>
         <li>
-          <Link href="#appointment">Appointment</Link>
+          <Link href="#book-appointment">Appointment</Link>
         </li>
         <li>
           <Link href="#contact">Contact</Link>

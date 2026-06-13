@@ -100,7 +100,6 @@ export default function Form() {
                 {...register('name', { required: 'Please enter your name' })}
                 type="text"
                 placeholder="e.g. Bobbie Navarro"
-                autoFocus
                 className={css.inputForm}
               />
             </label>
