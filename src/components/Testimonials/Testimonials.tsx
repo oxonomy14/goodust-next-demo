@@ -36,7 +36,7 @@ export default async function Testimonials() {
           </div>
           <div className={css.testimonialsImageWrapper}>
             <Image
-              src="/images/testimonials/testimonials.png"
+              src="/images/testimonials/testimonialsTeams.webp"
               className={css.testimonialsImage}
               alt="team Goodust"
               width={508}
