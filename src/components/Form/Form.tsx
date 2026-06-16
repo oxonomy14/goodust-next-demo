@@ -155,7 +155,8 @@ export default function Form() {
               Choose Service
               <select
                 {...register('service', {
-                  required: 'Please select a service',
+                  /*         required: 'Please select a service', */
+                  required: false,
                 })}
                 defaultValue=""
                 className={css.selectForm}
@@ -180,7 +181,8 @@ export default function Form() {
               Date
               <input
                 {...register('date', {
-                  required: 'Please enter Expected Date',
+                  /*  required: 'Please enter Expected Date', */
+                  required: false,
                 })}
                 type="date"
                 placeholder="dd/mm/yy"
@@ -202,17 +204,28 @@ export default function Form() {
               </select>
             </label>
           </div>
+          <div className={css.attantionWrapper}>
+            <p className={css.attantionText}>
+              ⚠️ Not sure about the date, time, or required services yet? Leave
+              these fields blank and provide details in the comment section. Our
+              manager will contact you to discuss your needs and answer any
+              questions.{' '}
+            </p>
+          </div>
           <div className={css.gridItemTextarea}>
             <label className={css.labelForm}>
-              Message
+              Comment
               <textarea
                 {...register('message', {
-                  required: 'Please enter Expected Time',
+                  required: 'Please enter your comment',
                 })}
-                placeholder="Your message"
+                placeholder="Your comment"
                 className={css.textareaForm}
               />
             </label>
+            {errors.message && (
+              <p className={css.error}>{errors.message.message}</p>
+            )}
           </div>
         </div>
         <button type="submit" className={css.btnForm} disabled={isLoading}>

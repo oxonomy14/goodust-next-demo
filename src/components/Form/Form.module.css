@@ -10,6 +10,11 @@
   grid-column-end: 3;
 }
 
+.attantionWrapper {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
 .inputForm {
   border: 1px solid var(--bg-light);
   border-radius: 8px;
@@ -153,6 +158,24 @@
 
 .labelForm:focus-within {
   color: var(--border-divider);
+}
+
+.attantionText {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 162%;
+  color: var(--grey-text);
+  padding: 0px 8px;
+}
+
+.error {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 162%;
+  color: var(--error);
+  padding: 8px 8px;
 }
 
 .btnForm {
