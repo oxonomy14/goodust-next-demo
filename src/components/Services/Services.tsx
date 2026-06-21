@@ -4,7 +4,7 @@ import css from './Services.module.css';
 
 export default function Services() {
   return (
-    <section className={css.sectionServices}>
+    <section className={css.sectionServices} id="service">
       <Container>
         <div className={css.contentWrapper}>
           <div>

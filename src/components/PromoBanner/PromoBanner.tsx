@@ -14,12 +14,13 @@ export default function PromoBanner() {
         <div className={css.contentWrapper}>
           <div className={css.content}>
             <h2 className={css.title}>
-              Simplify Your Life with Our Cleaning Expertise
+              Trusted Cleaning Solutions for Every Space
             </h2>
             <p className={css.description}>
-              Torquent sagittis ex ultrices congue nisi sapien pretium tristique
-              odio. Ultricies fusce nulla dis dictumst montes cubilia viverra
-              platea venenatis dapibus arcu nisi pretium.
+              From home cleaning and office maintenance to deep cleaning
+              services, our experienced team provides dependable, high-quality
+              cleaning solutions designed to keep your space fresh, organized,
+              and welcoming year-round.
             </p>
             <Link className={css.btnViewService} href="#service">
               View Our Service
