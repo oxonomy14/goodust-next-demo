@@ -5,6 +5,7 @@ import AboutUs from '@/components/AboutUs/AboutUs';
 import ContactForm from '@/components/ContactForm/ContactForm';
 import Testimonials from '@/components/Testimonials/Testimonials';
 import PromoBanner from '@/components/PromoBanner/PromoBanner';
+import Services from '@/components/Services/Services';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero />
       <AboutUs />
       <PromoBanner />
+      <Services />
       <ContactForm />
       <Testimonials />
     </LayoutShell>
