@@ -28,28 +28,48 @@ export default function Footer() {
               <p className={css.footerSocialContactTitle}>Connect with us</p>
               <ul className={css.footerSocialList}>
                 <li className={css.footerSocialItem}>
-                  <Link href="/" rel="noopener noreferrer" target="_blank">
+                  <Link
+                    href="/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className={css.footerSocialLink}
+                  >
                     <svg className={css.fbIcon}>
                       <use href={`/icons/sprite.svg#icon-fb`} />
                     </svg>
                   </Link>
                 </li>
                 <li className={css.footerSocialItem}>
-                  <Link href="/" rel="noopener noreferrer" target="_blank">
+                  <Link
+                    href="/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className={css.footerSocialLink}
+                  >
                     <svg className={css.xIcon}>
                       <use href={`/icons/sprite.svg#icon-x`} />
                     </svg>
                   </Link>
                 </li>
                 <li className={css.footerSocialItem}>
-                  <Link href="/" rel="noopener noreferrer" target="_blank">
+                  <Link
+                    href="/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className={css.footerSocialLink}
+                  >
                     <svg className={css.instagramIcon}>
                       <use href={`/icons/sprite.svg#icon-instagram`} />
                     </svg>
                   </Link>
                 </li>
                 <li className={css.footerSocialItem}>
-                  <Link href="/" rel="noopener noreferrer" target="_blank">
+                  <Link
+                    href="/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className={css.footerSocialLink}
+                  >
                     <svg className={css.youtubeIcon}>
                       <use href={`/icons/sprite.svg#icon-youtube`} />
                     </svg>
