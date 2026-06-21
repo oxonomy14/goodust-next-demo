@@ -1,7 +1,7 @@
 import css from './Hero.module.css';
 import Container from '../Container/Container';
 import Image from 'next/image';
-import Link from 'next/link';
+
 import CtaButton from '../CtaButton/CtaButton';
 
 export default function Hero() {
@@ -25,7 +25,7 @@ export default function Hero() {
 
           <div className={css.heroImage}>
             <Image
-              src="/images/hero/teamCleaning.png"
+              src="/images/hero/teamCleaning.webp"
               alt="Hero Image"
               width={669}
               height={720}

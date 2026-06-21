@@ -1,3 +1,6 @@
+'use client';
+
+import { useEffect } from 'react';
 import Link from 'next/link';
 import css from './ThankYouModal.module.css';
 
@@ -12,6 +15,21 @@ export default function ThankYouModal({
   onClose,
   orderId,
 }: ThankYouModalProps) {
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener('keydown', handleKeyDown);
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isOpen, onClose]);
   if (!isOpen) return null;
   return (
     <div className={css.backdrop} onClick={onClose}>
