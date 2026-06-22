@@ -41,47 +41,6 @@
   color: var(--text);
 }
 
-/* .steps {
-  display: flex;
-  padding: 0px 195px;
-}
-
-.stepItem {
-  flex: 1;
-  position: relative;
-}
-
-.stepItem:not(:last-child)::after {
-  content: '';
-  position: absolute;
-  top: 12px;
-  left: 36px;
-  right: 12px;
-  border-top: 1px dashed #b9dcb9;
-}
-
-.stepCircle {
-  position: relative;
-  z-index: 1;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: var(--secondary);
-}
-
-.stepCircle::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: white;
-  transform: translate(-50%, -50%);
-}
- */
-
 .steps {
   display: flex;
   justify-content: center;

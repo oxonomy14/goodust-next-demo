@@ -10,6 +10,7 @@ import Statistics from '@/components/Statistics/Statistics';
 import CtaBanner from '@/components/CtaBanner/CtaBanner';
 import WhyChooseUs from '@/components/WhyChooseUs/WhyChooseUs';
 import HowItWorks from '@/components/HowItWorks/HowItWorks';
+import Faq from '@/components/Faq/Faq';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -30,7 +31,9 @@ export default function Home() {
       <WhyChooseUs />
       <HowItWorks />
       <ContactForm />
+
       <Testimonials />
+      <Faq />
     </LayoutShell>
   );
 }
