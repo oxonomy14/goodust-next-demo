@@ -9,6 +9,7 @@ import Services from '@/components/Services/Services';
 import Statistics from '@/components/Statistics/Statistics';
 import CtaBanner from '@/components/CtaBanner/CtaBanner';
 import WhyChooseUs from '@/components/WhyChooseUs/WhyChooseUs';
+import HowItWorks from '@/components/HowItWorks/HowItWorks';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -27,6 +28,7 @@ export default function Home() {
       <Statistics />
       <CtaBanner />
       <WhyChooseUs />
+      <HowItWorks />
       <ContactForm />
       <Testimonials />
     </LayoutShell>
