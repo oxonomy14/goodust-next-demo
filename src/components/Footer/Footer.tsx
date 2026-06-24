@@ -110,7 +110,7 @@ export default function Footer() {
                     <Link href="/">Our Contact</Link>
                   </li>
                   <li className={css.footerMenuItem}>
-                    <Link href="/">Services</Link>
+                    <Link href="#service">Services</Link>
                   </li>
                   <li className={css.footerMenuItem}>
                     <Link href="/">Appointment</Link>
@@ -191,7 +191,7 @@ export default function Footer() {
               >
                 <span> andriiweb.dev</span>
               </Link>
-              . All rights reserved.
+              All rights reserved.
             </p>
             <div className={css.footerNavigation}>
               <NavigationFooter />
