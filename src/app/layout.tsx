@@ -16,8 +16,10 @@ import '../styles/globals.css';
 import 'react-phone-number-input/style.css';
 import type { Metadata } from 'next';
 
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://goodust.com'),
+  metadataBase: new URL(baseUrl),
 
   title: {
     default: 'Goodust',
