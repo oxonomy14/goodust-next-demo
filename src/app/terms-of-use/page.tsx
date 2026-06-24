@@ -17,7 +17,7 @@ export default function TermsPage() {
         subTitle="# Legal Information"
         title="Terms of Use"
         description="Please read these terms and conditions carefully before using Goodust cleaning services."
-        bgImage="/images/termsOfUse/termsOfUse.webp"
+        bgImage="/images/pages/termsOfUse.webp"
       />
       <Terms />
     </LayoutShell>
