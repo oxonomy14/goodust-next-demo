@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     siteName: 'Goodust',
-    title: 'Goodust',
+    title: 'Goodust Cleaning Services',
     description: 'Professional cleaning services for homes and businesses.',
     images: [
       {
