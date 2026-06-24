@@ -1,8 +1,8 @@
 .hero {
-  background:
-    linear-gradient(rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.6)),
-    url('/images/hero/bgHero.webp') center/cover no-repeat;
-  height: 790px;
+  padding: 210px 0 240px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .heroContent {
@@ -12,7 +12,7 @@
 }
 
 .heroText {
-  padding: 239px 0px 0px;
+  /*   padding: 239px 0px 0px; */
   width: 545px;
 }
 
@@ -53,8 +53,4 @@
   line-height: 150%;
   color: var(--grey-text);
   margin-bottom: 20px;
-}
-
-.heroImage {
-  padding-top: 70px;
 }

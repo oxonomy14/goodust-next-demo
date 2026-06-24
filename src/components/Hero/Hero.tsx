@@ -10,7 +10,7 @@ export default function Hero() {
       <Container>
         <div className={css.heroContent}>
           <div className={css.heroText}>
-            <p className={css.subtitle}># From Dusty to Dazzling</p>
+            <p className={css.subTitle}># From Dusty to Dazzling</p>
             <h1 className={css.title}>
               Bringing <span className={css.highlight}>Sparkle</span> Back to
               Your Home

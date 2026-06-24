@@ -1,6 +1,8 @@
 // app/terms-of-use/page.tsx
 
 import Terms from '@/components/Terms/Terms';
+import PageHero from '@/components/PageHero/PageHero';
+import LayoutShell from '@/components/LayoutShell/LayoutShell';
 
 export const metadata = {
   title: 'Terms of Use | Goodust',
@@ -9,5 +11,15 @@ export const metadata = {
 };
 
 export default function TermsPage() {
-  return <Terms />;
+  return (
+    <LayoutShell>
+      <PageHero
+        subTitle="# Legal Information"
+        title="Terms of Use"
+        description="Please read these terms and conditions carefully before using Goodust cleaning services."
+        bgImage="/images/termsOfUse/termsOfUse.webp"
+      />
+      <Terms />
+    </LayoutShell>
+  );
 }
