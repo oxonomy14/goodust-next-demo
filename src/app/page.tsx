@@ -12,16 +12,29 @@ import WhyChooseUs from '@/components/WhyChooseUs/WhyChooseUs';
 import HowItWorks from '@/components/HowItWorks/HowItWorks';
 import Faq from '@/components/Faq/Faq';
 import type { Metadata } from 'next';
+import FaqSchema from '@/components/Seo/FaqSchema';
 
 export const metadata: Metadata = {
-  title: 'Cleaning Services',
+  title: 'Home & Office Cleaning Services',
   description:
-    'Reliable residential and commercial cleaning services. Book professional cleaners online with Goodust.',
+    'Professional home and office cleaning services. Deep cleaning, carpet cleaning, window cleaning, furniture cleaning, and laundry services.',
+
+  alternates: {
+    canonical: '/',
+  },
+
+  openGraph: {
+    title: 'Home & Office Cleaning Services | Goodust',
+    description:
+      'Professional home and office cleaning services. Deep cleaning, carpet cleaning, window cleaning, furniture cleaning, and laundry services.',
+    url: '/',
+  },
 };
 
 export default function Home() {
   return (
     <LayoutShell>
+      <FaqSchema />
       <Hero />
       <AboutUs />
       <PromoBanner />
@@ -31,7 +44,6 @@ export default function Home() {
       <WhyChooseUs />
       <HowItWorks />
       <ContactForm />
-
       <Testimonials />
       <Faq />
     </LayoutShell>
