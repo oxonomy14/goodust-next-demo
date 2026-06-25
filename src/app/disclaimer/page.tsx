@@ -17,7 +17,7 @@ export default function CookiePage() {
         subTitle="# Legal Information"
         title="Disclaimer"
         description="Important information regarding the use of our website, services, and limitations of liability."
-        bgImage="/images/pages/disclaimer.webp"
+        bgImage="/images/pages/disclaimerV2.webp"
       />
       <Disclaimer />
     </LayoutShell>

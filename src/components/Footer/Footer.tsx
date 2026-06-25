@@ -95,7 +95,7 @@ export default function Footer() {
                     <Link href="/disclaimer">Disclaimer</Link>
                   </li>
                   <li className={css.footerMenuItem}>
-                    <Link href="/">Support</Link>
+                    <Link href="/blog">Blog</Link>
                   </li>
                 </ul>
               </div>
@@ -110,10 +110,10 @@ export default function Footer() {
                     <Link href="/">Our Contact</Link>
                   </li>
                   <li className={css.footerMenuItem}>
-                    <Link href="#service">Services</Link>
+                    <Link href="/#service">Services</Link>
                   </li>
                   <li className={css.footerMenuItem}>
-                    <Link href="/">Appointment</Link>
+                    <Link href="/#book-appointment">Appointment</Link>
                   </li>
                   <li className={css.footerMenuItem}>
                     <Link href="/">Pricing</Link>
