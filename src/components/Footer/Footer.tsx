@@ -83,16 +83,16 @@ export default function Footer() {
 
                 <ul className={css.footerMenuList}>
                   <li className={css.footerMenuItem}>
-                    <Link href="/">Privacy Policy</Link>
+                    <Link href="/privacy-polocy">Privacy Policy</Link>
                   </li>
                   <li className={css.footerMenuItem}>
-                    <Link href="/">Terms & Conditions</Link>
+                    <Link href="/terms-conditions">Terms & Conditions</Link>
                   </li>
                   <li className={css.footerMenuItem}>
-                    <Link href="/">FAQ`s</Link>
+                    <Link href="/#faq">FAQ`s</Link>
                   </li>
                   <li className={css.footerMenuItem}>
-                    <Link href="/">Disclaimer</Link>
+                    <Link href="/disclaimer">Disclaimer</Link>
                   </li>
                   <li className={css.footerMenuItem}>
                     <Link href="/">Support</Link>

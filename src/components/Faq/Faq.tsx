@@ -4,7 +4,7 @@ import { faqItems } from '@/data/faq';
 
 export default function Faq() {
   return (
-    <section className={css.sectionWrapper}>
+    <section className={css.sectionWrapper} id="faq">
       <Container>
         <p className={css.subTitle}>[ FAQ ]</p>
         <h2 className={css.title}>Frequently Asked Questions</h2>

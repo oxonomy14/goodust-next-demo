@@ -6,7 +6,7 @@ export default function NavigationFooter() {
     <nav className={css.navigationFooter}>
       <ul className={css.navigationFooterList}>
         <li className={css.navigationFooterItem}>
-          <Link href="/terms-of-use">Terms of Use</Link>
+          <Link href="/terms-conditions">Terms & Conditions</Link>
         </li>
         <li className={css.navigationFooterItem}>
           <Link href="/privacy-policy">Privacy Policy</Link>

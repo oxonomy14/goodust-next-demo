@@ -1,4 +1,4 @@
-// app/terms-of-use/page.tsx
+// app/terms-conditions/page.tsx
 
 import Terms from '@/components/Terms/Terms';
 import PageHero from '@/components/PageHero/PageHero';
