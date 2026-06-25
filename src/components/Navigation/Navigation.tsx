@@ -9,16 +9,16 @@ export default function Navigation() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="#about-us">About Us</Link>
+          <Link href="/about-us">About Us</Link>
         </li>
         <li>
-          <Link href="#service">Services</Link>
+          <Link href="/#service">Services</Link>
         </li>
         <li>
-          <Link href="#book-appointment">Appointment</Link>
+          <Link href="/#book-appointment">Appointment</Link>
         </li>
         <li>
-          <Link href="#contact">Contact</Link>
+          <Link href="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
