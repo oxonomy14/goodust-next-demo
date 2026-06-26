@@ -8,6 +8,8 @@
 }
 .imageWrapper {
   position: relative;
+  width: 438px;
+  height: 786px;
 }
 
 .image {
@@ -21,7 +23,7 @@
   border-left: 3px solid var(--secondary);
   border-radius: 8px;
   padding: 20px 20px 20px 23px;
-  width: 284px;
+  width: 254px;
   height: 94px;
   background: var(--white-netral);
   display: flex;
@@ -82,7 +84,8 @@
 .list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 14px;
+  margin-bottom: 34px;
 }
 
 .item {
@@ -123,7 +126,7 @@
   line-height: 120%;
   letter-spacing: -0.03em;
   color: var(--primary);
-  margin-bottom: 9px;
+  margin-bottom: 4px;
 }
 
 .itemDescription {
@@ -132,4 +135,82 @@
   font-size: 16px;
   line-height: 162%;
   color: var(--text);
+}
+
+.ctaSubTitle {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: linear-gradient(179deg, #4caf50 20%, #2196f3 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+.ctaTitle {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 115%;
+  letter-spacing: -0.03em;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.ctaDescription {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: var(--text);
+  margin-bottom: 12px;
+}
+
+.ctaList {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-bottom: 28px;
+}
+
+.ctaItem {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.arrowIcon {
+  fill: #4caf50;
+  width: 32;
+  height: 18px;
+}
+
+.ctaText {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: var(--text);
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 14px 34px;
+  height: 48px;
+  background: var(--accent);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--white-netral);
 }

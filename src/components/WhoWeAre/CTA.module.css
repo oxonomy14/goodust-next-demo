@@ -1,0 +1,45 @@
+.sectionContent {
+  padding: 112px 0px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 80px;
+}
+
+.content {
+  width: 600px;
+}
+
+.title {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 115%;
+  letter-spacing: -0.03em;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: var(--text);
+  margin-bottom: 28px;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 12px 24px;
+  width: 250px;
+  height: 42px;
+  background: var(--accent);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--white-netral);
+}

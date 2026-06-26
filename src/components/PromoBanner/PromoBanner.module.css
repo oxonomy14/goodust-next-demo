@@ -1,16 +1,3 @@
-/* .sectionWrapper {
-  background:
-    linear-gradient(
-      150deg,
-      rgba(38, 38, 38, 0.7) 30%,
-      rgba(38, 38, 38, 0.22) 100%
-    ),
-    url('/images/bg/bgPromoBanner.webp') center/cover no-repeat;
-
-  height: 519px;
-  padding: 128px 0px;
-} */
-
 .sectionWrapper {
   position: relative;
   background: url('/images/bg/bgPromoBanner.webp') center/cover no-repeat;

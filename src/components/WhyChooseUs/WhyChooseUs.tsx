@@ -22,7 +22,9 @@ export default function WhyChooseUs() {
                 </svg>
               </div>
               <div>
-                <p className={css.imageContentText}>250K+ Happy Customers</p>
+                <p className={css.imageContentText}>
+                  Trusted Cleaning Professionals
+                </p>
               </div>
             </div>
           </div>
