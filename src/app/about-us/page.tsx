@@ -6,7 +6,6 @@ import OurStory from '@/components/WhoWeAre/OurStory';
 import WhyChooseUs from '@/components/WhoWeAre/WhyChooseUs';
 import OurMission from '@/components/WhoWeAre/OurMission';
 import OurValues from '@/components/WhoWeAre/OurValues';
-import CTA from '@/components/WhoWeAre/CTA';
 
 export const metadata = {
   title: 'About Us | Goodust',
@@ -35,7 +34,6 @@ export default function AboutUsPage() {
       <WhyChooseUs />
       <OurMission />
       <OurValues />
-      {/*       <CTA /> */}
     </LayoutShell>
   );
 }
