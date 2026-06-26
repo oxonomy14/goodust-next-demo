@@ -37,8 +37,8 @@ export default function OurValues() {
             <ul className={css.list}>
               <li className={css.item}>
                 <div className={css.iconWrapper}>
-                  <svg className={css.staffIcon}>
-                    <use href={`/icons/sprite.svg#icon-staff`} />
+                  <svg className={css.icon}>
+                    <use href={`/icons/sprite.svg#icon-medal-2`} />
                   </svg>
                 </div>
                 <div>
@@ -51,8 +51,8 @@ export default function OurValues() {
               </li>
               <li className={css.item}>
                 <div className={css.iconWrapper}>
-                  <svg className={css.furnitureIcon}>
-                    <use href={`/icons/sprite.svg#icon-furniture`} />
+                  <svg className={css.icon}>
+                    <use href={`/icons/sprite.svg#icon-thumb_up`} />
                   </svg>
                 </div>
                 <div>
@@ -65,8 +65,8 @@ export default function OurValues() {
               </li>
               <li className={css.item}>
                 <div className={css.iconWrapper}>
-                  <svg className={css.ecoIcon}>
-                    <use href={`/icons/sprite.svg#icon-ecoSolution`} />
+                  <svg className={css.icon}>
+                    <use href={`/icons/sprite.svg#icon-verified_user`} />
                   </svg>
                 </div>
                 <div>
@@ -79,8 +79,8 @@ export default function OurValues() {
               </li>
               <li className={css.item}>
                 <div className={css.iconWrapper}>
-                  <svg className={css.ecoIcon}>
-                    <use href={`/icons/sprite.svg#icon-ecoSolution`} />
+                  <svg className={css.icon}>
+                    <use href={`/icons/sprite.svg#icon-heart`} />
                   </svg>
                 </div>
                 <div>

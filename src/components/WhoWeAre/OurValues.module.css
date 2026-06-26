@@ -94,11 +94,19 @@
 }
 
 .iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 8px;
-  padding: 13px;
   width: 54px;
   height: 54px;
   background: var(--secondary);
+}
+
+.icon {
+  fill: var(--white-netral);
+  width: 27px;
+  height: 27px;
 }
 
 .staffIcon {
