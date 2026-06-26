@@ -28,7 +28,7 @@ export default function AboutUsPage() {
         subTitle="# Who We Are"
         title="About Goodust Cleaning Services"
         description="We provide reliable residential and commercial cleaning services, helping homeowners and businesses enjoy cleaner, healthier, and more comfortable spaces every day."
-        bgImage="/images/aboutus/aboutUsBg.webp"
+        bgImage="/images/aboutus/AboutUsBg.webp"
       />
       <OurStory />
       <WhyChooseUs />

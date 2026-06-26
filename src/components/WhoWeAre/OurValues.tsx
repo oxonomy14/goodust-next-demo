@@ -10,7 +10,7 @@ export default function OurValues() {
         <div className={css.contentWrapper}>
           <div className={css.imageWrapper}>
             <Image
-              src="/images/aboutus/aboutUsV2.webp"
+              src="/images/aboutus/AboutUsV2.webp"
               alt="Our Values"
               width={438}
               height={786}
