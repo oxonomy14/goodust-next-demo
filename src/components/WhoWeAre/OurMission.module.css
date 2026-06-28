@@ -17,6 +17,7 @@
 .contentWrapper {
   position: relative;
   z-index: 1;
+  width: 506px;
 }
 
 .subTitle {
