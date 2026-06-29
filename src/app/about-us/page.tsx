@@ -19,6 +19,16 @@ export const metadata = {
     'commercial cleaning',
     'cleaning services',
   ],
+
+  alternates: {
+    canonical: '/about-us',
+  },
+
+  openGraph: {
+    title: 'About Us | Goodust',
+    description: 'Learn more about Goodust.',
+    url: '/about-us',
+  },
 };
 
 export default function AboutUsPage() {

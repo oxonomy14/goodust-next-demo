@@ -1,4 +1,4 @@
-// components/Seo/FaqSchema.tsx
+// components/Seo/FaqHomeSchema.tsx
 
 import { faqItems } from '@/data/faq';
 

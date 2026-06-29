@@ -21,7 +21,7 @@ export default function ContactUs() {
             </div>
             <div>
               <h3 className={css.contactTitle}>Call Center</h3>
-              <p className={css.contactDescription}>+1 (234) 567-8910</p>
+              <p className={css.contactDescription}>+66 (80) 567-89-12</p>
             </div>
           </div>
         </li>
@@ -34,7 +34,7 @@ export default function ContactUs() {
             </div>
             <div>
               <h3 className={css.contactTitle}>Email Support</h3>
-              <p className={css.contactDescription}>hello@goodust.demo</p>
+              <p className={css.contactDescription}>hello@goodust.co.th</p>
             </div>
           </div>
         </li>
@@ -47,7 +47,40 @@ export default function ContactUs() {
             </div>
             <div>
               <p className={css.contactTitle}>Chat Us</p>
-              <p className={css.contactDescription}>+1 (234) 567-8912</p>
+              <p className={css.contactDescription}>+66 (80) 567-89-12</p>
+            </div>
+          </div>
+        </li>
+        <li className={css.contactItem}>
+          <div className={css.contactWrapper}>
+            <div className={css.wrapperIcon}>
+              <svg className={css.mapIcon}>
+                <use href={`/icons/sprite.svg#icon-satellite`} />
+              </svg>
+            </div>
+            <div>
+              <p className={css.contactTitle}>Service Area</p>
+              <p className={css.contactDescription}>
+                We proudly serve homes and businesses throughout Bangkok and
+                nearby areas.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li className={css.contactItem}>
+          <div className={css.contactWrapper}>
+            <div className={css.wrapperIcon}>
+              <svg className={css.timeIcon}>
+                <use href={`/icons/sprite.svg#icon-time`} />
+              </svg>
+            </div>
+            <div>
+              <p className={css.contactTitle}>Working Hours</p>
+              <p className={css.contactDescription}>
+                Monday – Saturday: 8:00 AM – 6:00 PM
+                <br />
+                Sunday – Closed
+              </p>
             </div>
           </div>
         </li>

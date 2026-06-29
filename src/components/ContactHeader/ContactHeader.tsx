@@ -12,7 +12,7 @@ export default function ContactHeader() {
           </div>
           <div>
             <p className={css.contactTitle}>Customer Support</p>
-            <p className={css.contactNumber}>+1 (234) 567-8910</p>
+            <p className={css.contactNumber}>+66 (80) 567-89-10</p>
           </div>
         </li>
         <li>
@@ -23,7 +23,7 @@ export default function ContactHeader() {
           </div>
           <div>
             <p className={css.contactTitle}>Email Support</p>
-            <p className={css.contactEmail}>hello@goodust.demo</p>
+            <p className={css.contactEmail}>hello@goodust.co.th</p>
           </div>
         </li>
       </ul>

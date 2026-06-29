@@ -136,7 +136,7 @@ export default function Footer() {
                           Call Center
                         </p>
                         <p className={css.footerMenuContactDescription}>
-                          +1 (234) 567-8910
+                          +66 (80) 567-89-10
                         </p>
                       </div>
                     </div>
@@ -153,7 +153,7 @@ export default function Footer() {
                           Email Support
                         </p>
                         <p className={css.footerMenuContactDescription}>
-                          hello@goodust.demo
+                          hello@goodust.co.th
                         </p>
                       </div>
                     </div>
@@ -168,7 +168,7 @@ export default function Footer() {
                       <div>
                         <p className={css.footerMenuContactTitle}>Chat Us</p>
                         <p className={css.footerMenuContactDescription}>
-                          +1 (234) 567-8912
+                          +66 (80) 567-89-12
                         </p>
                       </div>
                     </div>

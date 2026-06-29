@@ -44,6 +44,11 @@ export const metadata: Metadata = {
         height: 630,
       },
     ],
+    locale: 'en_US',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
   },
 
   robots: {

@@ -12,7 +12,7 @@ import WhyChooseUs from '@/components/WhyChooseUs/WhyChooseUs';
 import HowItWorks from '@/components/HowItWorks/HowItWorks';
 import Faq from '@/components/Faq/Faq';
 import type { Metadata } from 'next';
-import FaqSchema from '@/components/Seo/FaqSchema';
+import FaqHomeSchema from '@/components/Seo/FaqHomeSchema';
 
 export const metadata: Metadata = {
   title: 'Home & Office Cleaning Services',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <LayoutShell>
-      <FaqSchema />
+      <FaqHomeSchema />
       <Hero />
       <AboutUs />
       <PromoBanner />

@@ -62,3 +62,54 @@ export const faqItems = [
       'You can easily book a cleaning service through our website contact form or by contacting our team directly.',
   },
 ];
+
+export const faqItemsContact = [
+  {
+    id: 1,
+    question: 'How quickly can I book a cleaning service?',
+    answer:
+      'We can usually schedule your cleaning within 24–48 hours, depending on our availability. If you need an urgent appointment, contact us and we’ll do our best to accommodate your request.',
+  },
+  {
+    id: 2,
+    question: 'Do you bring your own cleaning supplies?',
+    answer:
+      'Yes. Our professional cleaners arrive fully equipped with high-quality cleaning products and equipment. If you prefer us to use your own supplies, we’re happy to accommodate your request.',
+  },
+  {
+    id: 3,
+    question: 'Are your cleaners insured and trained?',
+    answer:
+      'Absolutely. Every member of our cleaning team is professionally trained and insured, giving you peace of mind while we work in your home or business.',
+  },
+  {
+    id: 4,
+    question: 'Can I schedule recurring cleaning services?',
+    answer:
+      'Yes. We offer flexible recurring cleaning plans, including weekly, bi-weekly, and monthly visits. We’ll help you choose a schedule that best fits your lifestyle or business needs.',
+  },
+  {
+    id: 5,
+    question: 'Do I need to be home during the cleaning?',
+    answer:
+      'No. Many of our customers provide access to their property while they’re away. If you prefer to be present, that’s perfectly fine as well.',
+  },
+  {
+    id: 6,
+    question: 'How do you determine the cost of a cleaning service?',
+    answer:
+      'Pricing is based on factors such as the size of your property, the type of cleaning service, and any additional requests. Contact us for a free, no-obligation quote.',
+  },
+  {
+    id: 7,
+    question: 'What areas do you serve?',
+    answer:
+      'We provide residential and commercial cleaning services throughout Bangkok and surrounding neighborhoods. If you’re unsure whether we cover your location, simply contact us.',
+  },
+  {
+    id: 8,
+    question: 'What if I’m not satisfied with the cleaning?',
+    answer:
+      'Customer satisfaction is our priority. If you’re not completely happy with the results, let us know within 24 hours, and we’ll work with you to make it right.',
+  },
+];
